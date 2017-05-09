@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+curl -sS "wttr.in/$1" | head -7
+date
